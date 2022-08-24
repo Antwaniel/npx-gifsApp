@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    padding: 60px;
+    background-color: #391d6f;
+    color: azure;
 }
+
+
+input{
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+
+/* img */
+/* From uiverse.io by @alexmaracinaru */
+
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+   
+  width: 400px;
+  /* height: 350px; */
+
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+  /* overflow: hidden; */
+}
+
+.card-image {
+    cursor: pointer;
+   
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  /* height: auto; */
+  border-radius: 6px 6px 0 0;
+  overflow: hidden;
+}
+/* .card-image img{
+    width: 200px;
+    height: 120px;
+} */
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+
+
